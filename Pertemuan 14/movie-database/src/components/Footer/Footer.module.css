@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.container {
+  background-color: #bad7e9;
+  color: #fcffe7;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer__title {
+  margin-bottom: 1rem;
+  font-family: "Rubik";
+}
+
+.footer__author {
+  font-family: "Rubik";
+}
+
+@media (min-width: 768px) {
+}

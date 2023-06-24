@@ -1,0 +1,46 @@
+.container {
+  margin: 1rem;
+}
+
+.movies {
+  margin: 5rem 0 0 1rem;
+  text-align: center;
+}
+
+.movies__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.movies__image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.movies__title {
+  color: #2b3467;
+  font-size: 1.95rem;
+  font-family: "Rubik";
+  margin-bottom: 0.5rem;
+}
+
+.movies__date {
+  color: #eb455f;
+}
+
+@media (min-width: 768px) {
+  .movies__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+}

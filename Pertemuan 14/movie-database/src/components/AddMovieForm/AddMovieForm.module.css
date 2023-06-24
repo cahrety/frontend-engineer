@@ -1,0 +1,87 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  padding: 1rem;
+  flex-basis: 50%;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: dashed;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #eb455f;
+  color: white;
+  width: 350px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.title {
+  color: #2b3467;
+  font-size: 2.2rem;
+  font-family: "Rubik";
+}
+
+.head {
+  color: #2b3467;
+  font-size: 1.1rem;
+  font-family: "Rubik";
+  padding: 5px;
+}
+
+.movie__title,
+.date__title,
+.form__image,
+.genre {
+  width: 350px;
+  padding: 10px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .left {
+    display: block;
+    flex-basis: 60%;
+  }
+
+  .right {
+    flex-basis: 40%;
+  }
+}

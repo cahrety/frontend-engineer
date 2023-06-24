@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.container {
+    background-color: #BAD7E9;
+    padding: 1rem;
+    color: #FCFFE7;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__brand {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    font-family: 'Rubik';
+}
+
+.navbar__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.navbar__item {
+    margin-bottom: 1rem;
+    font-family: 'Rubik';
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar__brand {
+        margin-bottom: 0;
+    }
+
+    .navbar__list {
+        flex-direction: row;
+    }
+
+    .navbar__item {
+        margin: 0 1rem;
+    }
+}
